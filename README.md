@@ -36,7 +36,7 @@ output:
 
 We may see that the terrorist side have a slighlty higher winning rate. It could be due to multiple factors such as better players or better equipment.
   
-#average match rank
+# Average match rank
 In CSGO, the player level is determined by his rank, whihc goes from 1 to 16. Let's see what is the average match rank when one of the side wins:
 ```
 input:
@@ -76,7 +76,7 @@ fig, (ax1, ax2, ax3) = plt.subplots(nrows=3, ncols=1)
 plot = df.groupby(["round", 'att_side'])['hp_dmg'].mean().reset_index()
 sns.lineplot(plot, x='round', y='hp_dmg', hue='att_side', ax=ax1)
 #
-#avg distance damage/round depending on the side
+# avg distance damage/round depending on the side
 plot_2 = df.groupby(["round", 'att_side'])['distance'].mean().reset_index()
 sns.lineplot(plot_2, x='round', y='distance', hue='att_side', ax=ax2)
 #
