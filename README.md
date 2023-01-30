@@ -108,7 +108,9 @@ Before looking at the spending habits on each weapon type for each side, let's h
 ```
 output:
 ```
-![plot2](https://user-images.githubusercontent.com/117467104/215448972-0dda70e6-3eaf-4694-b0c5-328c8001e819.png)
+![plot2](https://user-images.githubusercontent.com/117467104/215461071-d2794cdd-a085-49f6-a78d-c7731e582c0e.png)
+
+
 
 Apparently, counter-terrorists tend to have a higher equipment value through the 15 first rounds. Then, the equipment value seems pretty much even for both teams. 
 Even though counter-terrorists inflict less damage, they are the ones with the higher equipment value, which implies either the counter-terrorist get more wining rounds, or that the terrorist choose not to spend all their money on equipment. Since we saw that the terrorist have a slightly higher wining rate, the second hypothesis is more likely to be true instead of the first one.
